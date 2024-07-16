@@ -1,0 +1,11 @@
+<div id=\"MathResult\"><p>
+\"Result will be displayed here\"
+</p></div>
+<div id=\"HelloResult\"><p>
+\"Hello, ___!\"
+\"Hello, 
+!\"
+</p></div>
+<html><head><title>CUMS</title><script src=\"https://unpkg.com/htmx.org@1.9.12/dist/htmx.js\"></script><script src=\"https://unpkg.com/htmx.org@1.9.12/dist/ext/ws.js\"></script><script src=\"https://unpkg.com/htmx.org@1.9.12/dist/ext/multi-swap.js\"></script><link rel=\"stylesheet\" href=\"/assets/style.css\"><link rel=\"icon\" href=\"/assets/logo.png\" type=\"image/png\"><script src=\"/assets/wasm_exec.js\"></script><script defer src=\"/assets/main.js\"></script></head><body id=\"body\" hx-ext=\"ws\" ws-connect=\"/api/ws\" hx-ext=\"relative multi-swap\" class=\"bg-teal-900 flex flex-row p-8 space-x-8\"><div class=\"flex flex-col flex-1 justify-start items-start p-6 rounded-3xl bg-teal-50 space-y-4\"><input id=\"number1\" type=\"number\" class=\"rounded-full bg-teal-100 border border-teal-700 p-2 pr-4\" placeholder=\"Number 1\"> <input id=\"number2\" type=\"number\" class=\"rounded-full bg-teal-100 border border-teal-700 p-2 pr-4\" placeholder=\"Number 2\"> <button class=\"rounded-full bg-teal-100 border border-teal-700 p-2 pr-4\" onclick=\"CrazyMath({A: Number(document.getElementById(&#39;number1&#39;).value), B: Number(document.getElementById(&#39;number2&#39;).value)})\">Calculate</button>
+</div><div class=\"flex flex-col flex-1 justify-start items-start p-6 rounded-3xl bg-teal-50 space-y-4\"><input id=\"name\" type=\"text\" class=\"rounded-full bg-teal-100 border border-teal-700 p-2 pr-4\" placeholder=\"Name\"> <button class=\"rounded-full bg-teal-100 border border-teal-700 p-2 pr-4\" onclick=\"SayHello(document.getElementById(&#39;name&#39;).value)\">Say Hello</button>
+</div></body></html>
