@@ -8,7 +8,7 @@ require (
 	github.com/felixge/httpsnoop v1.0.4
 	github.com/gobwas/ws v1.4.0
 	github.com/gorilla/handlers v1.5.2
-	github.com/sett17/dnutlogger v0.0.0-20240629203607-8db6c1c4f406
+	github.com/dikkadev/dnutlogger v0.0.0-20240629203607-8db6c1c4f406
 )
 
 require (

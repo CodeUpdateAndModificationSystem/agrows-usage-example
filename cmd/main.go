@@ -6,7 +6,7 @@ import (
 	"agrows-usage-example/web"
 	"net/http"
 
-	log "github.com/sett17/dnutlogger"
+	log "github.com/dikkadev/dnutlogger"
 
 	"github.com/a-h/templ"
 )
